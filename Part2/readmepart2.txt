@@ -1,0 +1,34 @@
+// Nur Suhaira Bte Badrul Hisham
+// 5841549
+// Assignment 1 ReadMe Part 2
+
+Compilation:
+============
+1. In NurSuhaira_5841549_A1/Part2:
+	javac indexOfCoincidence.java 
+	// to compile indexOfCoincidence.java to generate indexOfCoincidence.class
+	javac mutualIndexOfCoincidence.java
+	// to compile mutualIndexOfCoincidence.java to generate mutualIndexOfCoincidence.class
+
+Before Execution:
+=================
+1. Make sure indexOfCoincidence.java/mutualIndexOfCoincidence.java are compiled with no error.
+2. In command prompt:
+	[indexOfCoincidence.java]
+		java indexOfCoincidence textA.txt OR
+		java indexOfCoincidence textB.txt
+	[mutualIndexOfCoincidence.java]
+		java mutualIndexOfCoincidence textA.txt textB.txt
+	
+During Execution:
+=================
+1. A successful display message OK will be prompted along for processing of textfile(s). 
+Current filename(s) will be displayed for reference.
+2. Program will prompt if user would like to change file(s) else enter 'n' or 'N'
+3. Once enter, console will display number of occurences of each letter (ignoring case)
+4. Value of Index of Coincidence/Mutual Index of Coincidence will be displayed last.
+
+Execute Environment
+===================
+Operating system: Ubuntu
+Using terminal.
